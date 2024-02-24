@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.circle{
+    border-radius: 50%;
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color: #c2ff3f;
+    color: #000;
+}
+.date{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1rem;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2vh;
+
+}
+button{
+    padding: 0.5rem;
+    border-radius: 20rem;
+    width: 6rem;
+    border: 1px solid black;
+    background-color: transparent;
+    
+    margin-left: 0.4rem;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    gap: 0.8rem;
+    align-items: center;
+}
+.star  {
+    width: 3.5rem;
+    height: auto;
+}
