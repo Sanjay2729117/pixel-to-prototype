@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+}
+.but-1{
+    transition: all 0.7s linear;
+}
+.but-2{
+    transition: all 0.7s linear;
+}
+.but-3{
+    transition: all 0.7s linear;
+}
+.but-4{
+    transition: all 0.7s linear;
+}
+.but-1:hover{
+background-color: #228dff;
+}
+.but-2:hover{
+
+    background-color: #344271;
+}
+.but-3:hover{
+
+    background-color: #ff3954;
+}
+.but-4:hover{
+background-color: #7071ff;
+}
