@@ -43,3 +43,78 @@ nav{
     width: 3.5rem;
     height: auto;
 }
+
+.text{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 6rem;
+  font-family: "Roboto Condensed", sans-serif;
+
+}
+.when{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+.mis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 14rem;
+    padding: 1rem;
+    align-items: center;
+}
+.when1{
+font-size: 0.6rem;
+}
+.miss{
+    font-size: 0.6rem;
+}
+.fd{
+    font-size: 1.2rem;
+}
+.watch{
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration-line: underline; 
+}
+.but-div{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    border: 1px solid black;
+    width: fit-content;
+    border-radius: 20px;
+}
+.d1{
+    background-color: #000;
+    color: white;
+    width: 40vw;
+    border-radius: 20px;
+    padding: 1rem;
+    font-size:1rem
+
+}
+.d2{
+    background-color: #ffffff;
+    color: black;
+    width: 30vw;
+    font-size:1rem;
+
+    padding: 1rem;
+    
+ 
+}
+.flex1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
