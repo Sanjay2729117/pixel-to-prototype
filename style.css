@@ -89,7 +89,7 @@ font-size: 0.6rem;
 
     justify-content: center;
     align-items: center;
-    margin-left: 15%;
+    margin-left: 20%;
     border: 1px solid black;
     width: fit-content;
     border-radius: 20px;
@@ -97,16 +97,19 @@ font-size: 0.6rem;
 .d1{
     background-color: #000;
     color: white;
-    width: 40vw;
+    width: 30vw;
     border-radius: 20px;
     padding: 1rem;
-    font-size:1rem
+    font-size:1rem;
 
+}
+.days{
+    text-decoration: underline;
 }
 .d2{
     background-color: #ffffff;
     color: black;
-    width: 30vw;
+    width: 20vw;
     font-size:1rem;
 
     padding: 1rem;
@@ -117,4 +120,16 @@ font-size: 0.6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.flex3{
+    display: flex;
+    justify-content: flex-start;
+    width: 40vw;
+}
+.row{
+    margin-left: 20vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
 }
