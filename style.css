@@ -3,6 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+
+    background: linear-gradient(#ffffff, #c2ff3f);
+}
 .circle{
     border-radius: 50%;
     width: 0.7rem;
@@ -28,7 +32,7 @@ button{
     border-radius: 20rem;
     width: 6rem;
     border: 1px solid black;
-    background-color: transparent;
+    background-color: white;
     
     margin-left: 0.4rem;
 
@@ -95,6 +99,7 @@ font-size: 0.6rem;
     border: 1px solid black;
     width: fit-content;
     border-radius: 20px;
+    background-color: transparent;
 }
 .d1{
     background-color: #000;
@@ -109,7 +114,7 @@ font-size: 0.6rem;
     text-decoration: underline;
 }
 .d2{
-    background-color: #ffffff;
+    background-color: transparent;
     color: black;
     width: 20vw;
     font-size:1rem;
@@ -145,4 +150,12 @@ font-size: 0.6rem;
 .w,.plus{
 font-size: larger;
 font-weight: bolder;
+}
+.but12{
+    padding: 0.5rem;
+    width: 6rem;
+    margin-top: 0.7rem;
+    border-radius: 0px;
+    border: 1px solid black;
+    background-color: transparent;
 }
