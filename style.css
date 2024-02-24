@@ -14,7 +14,8 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    padding-left: 5px;
 }
 .nav{
     display: flex;
@@ -48,6 +49,7 @@ nav{
     text-align: center;
     font-weight: bolder;
     font-size: 6rem;
+    line-height: 1em;
   font-family: "Roboto Condensed", sans-serif;
 
 }
@@ -120,10 +122,11 @@ font-size: 0.6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 .flex3{
     display: flex;
-    justify-content: flex-start;
+    gap: 9vw;
     width: 40vw;
 }
 .row{
@@ -131,5 +134,15 @@ font-size: 0.6rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80vw;
+    width: 70vw;
+    padding-top: 5vh;
+    padding-bottom: 4vh;
+}
+.hr1{
+    margin-bottom: 2vh;
+    margin-left: 20vw;
+}
+.w,.plus{
+font-size: larger;
+font-weight: bolder;
 }
